@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.image{
+    width: 100px;
+    border-radius: 40px;
+}
+
+.name{
+    color: white;
+}
+
+.location{
+    color: yellowgreen
+}
+
+.bio{
+    color: white;
+}
+
+.buttons{
+    display: list-item;
+}
