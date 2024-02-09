@@ -1,15 +1,18 @@
 body{
     margin: 0 auto;
     padding: 0px;
-    background-color: black;
+    background-color: #141414;
     display: flex;
     justify-content: center;
+    
 }
 
 
 .image{
-    width: 100px;
-    border-radius: 70%;
+    /* width: 100px; */
+    border-radius: 50%;
+    width:130px;
+    height: 130px;
 }
 
 .name{
@@ -17,7 +20,7 @@ body{
 }
 
 .location{
-    color: yellowgreen
+    color: #c0dc6a;
 }
 
 .bio{
@@ -25,20 +28,28 @@ body{
 }
 
 .buttons{
-    display: list-item;
-    background-color: black;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    flex-direction: column;
+    background-color:  #333333;
+    color: white;
 }
 .link-btn{
-    display: block;
     padding: 5px;
     border: 2px solid white;
     margin: 10px;
     border-style: none;
     list-style: none;
     text-decoration: none;
-    color: black;
-    background-color: aliceblue;
+    color: white;
+    text-decoration: none;
+    background-color:  #333333;
     border-radius: 5px;
+    /* justify-content: space-around; */
+  
+
 
 }
 
@@ -53,7 +64,9 @@ main{
     margin: 0 auto;
     align-items: auto;
     justify-content: center;
-    padding : 20px;
+
+    padding : 20px 20px 140px;
+    background-color: #1f1f1f;
     
 }
 
@@ -64,3 +77,20 @@ main{
 .link-btn:hover {
     background-color: red;
   }
+
+button a{
+    color: white !important;;
+    display: flex;
+    /* justify-content: space-evenly; */
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
